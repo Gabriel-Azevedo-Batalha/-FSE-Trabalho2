@@ -258,7 +258,6 @@ void *listener(void *args) {
 		firstTime[floors] = 0;
 		char *buffer = ReceiveHandler(floors+1);
 		firstTime[floors] = 1;
-		printf("SAIU!!!\n");
 		c[floors] = readConfig(buffer);
 		commands[floors] = c[floors];
 

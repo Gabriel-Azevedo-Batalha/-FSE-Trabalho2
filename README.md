@@ -5,6 +5,6 @@ Repositório para o trabalho 2 de Fundamentos de Sistemas Embarcados. Enunciado 
 Na pasta raiz de cada servidor, utilize make para compilar e para executar utilize:
     - No servidor central: ./bin/bin <ip> <porta>
     - Nos servidorer distribuídos: ./bin/bin <arquivoDeConfig>
-    
+
 ## Uso
-Primeiro inicie o servidor central, em seguida os distribuídos. As Instruções de controle são exibidas no terminal do servidor central. 
+Inicie o servidor central e pelo menos um distribuído. As Instruções de controle são exibidas no terminal do servidor central. 
